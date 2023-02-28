@@ -1,37 +1,172 @@
 [
     {
-        "bibtex": "@inproceedings{yimiao2023aim,\n  title     = {AIM: Acoustic Inertial Measurement for Indoor Drone Localization and Tracking},\n  author    = {Sun, Yimiao and Wang, Weiguo and Mottola, Luca and Wang, Ruijin and He, Yuan},\n  booktitle = {Proceedings of the 20th Conference on Embedded Networked Sensor Systems, {Sensys'22}},\n  publisher = {Association for Computing Machinery},\n  address    = {New York, NY, USA},\n  pages     = {476–488},\n  year      = {2022},\n   doi       = {10.1145/3560905.3568499}\n}\n",
+        "bibtex": "@article{10.1145/3550320,\nauthor = {Zhang, Jia and Zhou, Yinian and Xi, Rui and Li, Shuai and Guo, Junchen and He, Yuan},\ntitle = {AmbiEar: MmWave Based Voice Recognition in NLoS Scenarios},\nyear = {2022},\nissue_date = {September 2022},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {6},\nnumber = {3},\nurl = {https://doi.org/10.1145/3550320},\ndoi = {10.1145/3550320},\nabstract = {Millimeter wave (mmWave) based sensing is a significant technique that enables innovative smart applications, e.g., voice recognition. The existing works in this area require direct sensing of the human's near-throat region and consequently have limited applicability in non-line-of-sight (NLoS) scenarios. This paper proposes AmbiEar, the first mmWave based voice recognition approach applicable in NLoS scenarios. AmbiEar is based on the insight that the human's voice causes correlated vibrations of the surrounding objects, regardless of the human's position and posture. Therefore, AmbiEar regards the surrounding objects as ears that can perceive sound and realizes indirect sensing of the human's voice by sensing the vibration of the surrounding objects. By incorporating the designs like common component extraction, signal superimposition, and encoder-decoder network, AmbiEar tackles the challenges induced by low-SNR and distorted signals. We implement AmbiEar on a commercial mmWave radar and evaluate its performance under different settings. The experimental results show that AmbiEar has a word recognition accuracy of 87.21% in NLoS scenarios and reduces the recognition error by 35.1%, compared to the direct sensing approach.},\njournal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. {UbiComp'22}},\nmonth = {sep},\narticleno = {151},\nnumpages = {25},\nkeywords = {Millimeter Wave, Voice Recognition, Wireless Sensing}\n}\n\n",
         "authors": {
-            "boldAuthors": ["Yimiao Sun"],
+            "boldAuthors": ["Jia Zhang"],
             "correspondingAuthors": ["Yuan He"],
             "equalContributionAuthors": null
         },
         "note": "",
         "resources": {
-            "pdf": "./files/PDF/AIM.pdf",
-            "slides": "./files/Slides/AIM.pdf",
+            "pdf": "./files/PDF/AmbiEar.pdf",
+            "slides": "./files/Slides/AmbiEar.pdf",
             "code": null,
             "demo": null
         },
-        "figure":"./files/Fig/AIM.png",
-        "abstract": "We present Acoustic Inertial Measurement (AIM), a one-of-a-kind technique for indoor drone localization and tracking. Indoor drone localization and tracking are arguably a crucial, yet unsolved challenge: in GPS-denied environments, existing approaches enjoy limited applicability, especially in Non-Line of Sight (NLoS), require extensive environment instrumentation, or demand considerable hardware/software changes on drones. In contrast, AIM exploits the acoustic characteristics of the drones to estimate their location and derive their motion, even in NLoS settings. We tame location estimation errors using a dedicated Kalman filter and the Interquartile Range rule (IQR). We implement AIM using an off-the-shelf microphone array and evaluate its performance with a commercial drone under varied settings. Results indicate that the mean localization error of AIM is 46% lower than commercial UWB-based systems in complex indoor scenarios, where state-of-the-art infrared systems would not even work because of NLoS settings. We further demonstrate that AIM can be extended to support indoor spaces with arbitrary ranges and layouts without loss of accuracy by deploying distributed microphone arrays."
+        "figure":"./files/Fig/AmbiEar.png",
+        "abstract": "Millimeter wave (mmWave) based sensing is a significant technique that enables innovative smart applications, e.g., voice recognition. The existing works in this area require direct sensing of the human's near-throat region and consequently have limited applicability in non-line-of-sight (NLoS) scenarios. This paper proposes AmbiEar, the first mmWave based voice recognition approach applicable in NLoS scenarios. AmbiEar is based on the insight that the human's voice causes correlated vibrations of the surrounding objects, regardless of the human's position and posture. Therefore, AmbiEar regards the surrounding objects as ears that can perceive sound and realizes indirect sensing of the human's voice by sensing the vibration of the surrounding objects. By incorporating the designs like common component extraction, signal superimposition, and encoder-decoder network, AmbiEar tackles the challenges induced by low-SNR and distorted signals. We implement AmbiEar on a commercial mmWave radar and evaluate its performance under different settings. The experimental results show that AmbiEar has a word recognition accuracy of 87.21% in NLoS scenarios and reduces the recognition error by 35.1%, compared to the direct sensing approach.\n\n"
     },
-    {
-        "bibtex": "@inproceedings{weiguo2023micnest,\n  title     = {MicNest: Long-Range Instant Acoustic Localization of Drones in Precise Landing},\n  author    = {Wang, Weiguo and Mottola, Luca and He, Yuan and Li, Jinming and Sun, Yimiao and Li, Shuai and Jing, Hua and Wang, Yulei},\n  booktitle = {Proceedings of the 20th Conference on Embedded Networked Sensor Systems, {Sensys'22}},\n  publisher = {Association for Computing Machinery},\n  address    = {New York, NY, USA},\n  pages     = {504–517},\n  year      = {2022},\n   doi       = {10.1145/3560905.3568515}\n}\n",
+        {
+        "bibtex": "@article{10.1145/3482527,\nauthor = {Zhang, Jia and Guo, Xiuzhen and Jiang, Haotian and Zheng, Xiaolong and He, Yuan},\ntitle = {Link Quality Estimation of Cross-Technology Communication: The Case with Physical-Level Emulation},\nyear = {2021},\nissue_date = {February 2022},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {18},\nnumber = {1},\nissn = {1550-4859},\nurl = {https://doi.org/10.1145/3482527},\ndoi = {10.1145/3482527},\nabstract = {Research on cross-technology communication (CTC) has made rapid progress in recent years. While the CTC links are complex and dynamic, how to estimate the quality of a CTC link remains an open and challenging problem. Through our observation and study, we find that none of the existing approaches can be applied to estimate the link quality of CTC. Built upon the physical-level emulation, transmission over a CTC link is jointly affected by two factors: the emulation error and the channel distortion. Furthermore, the channel distortion can be modeled and observed through the signal strength and the noise strength. We, in this article, propose a new link metric called C-LQI and a joint link model that simultaneously takes into account the emulation error and the channel distortion in the In-phase and Quadrature (IQ) domain. We accurately describe the superimposed impact on the received signal. We further design a lightweight link estimation approach including two different methods to estimate C-LQI and in turn the packet reception rate (PRR) over the CTC link. We implement C-LQI and compare it with two representative link estimation approaches. The results demonstrate that C-LQI reduces the relative estimation error by 49.8% and 51.5% compared with s-PRR and EWMA, respectively.},\njournal = {ACM Trans. Sen. Netw. {TOSN'21}},\nmonth = {oct},\narticleno = {14},\nnumpages = {20},\nkeywords = {Cross-technology, link quality estimation}\n}",
         "authors": {
-            "boldAuthors": ["Yimiao Sun"],
+            "boldAuthors": ["Jia Zhang"],
             "correspondingAuthors": ["Yuan He"],
             "equalContributionAuthors": null
         },
         "note": "",
         "resources": {
-            "pdf": "./files/PDF/MicNest.pdf",
-            "slides": "./files/Slides/MicNest.pdf",
+            "pdf": "./files/PDF/CLQI_TOSN.pdf",
+            "slides": null,
             "code": null,
-            "demo": "https://micnest.github.io/"
+            "demo": null
         },
-        "figure": "./files/Fig/MicNest.png",
-        "abstract": "We present MicNest: an acoustic localization system enabling precise landing of aerial drones. Drone landing is a crucial step in a drone's operation, especially as high-bandwidth wireless networks, such as 5G, enable beyond-line-of-sight operation in a shared airspace and applications such as instant asset delivery with drones gain traction. In MicNest, multiple microphones are deployed on a landing platform in carefully devised configurations. The drone carries a speaker transmitting purposefully-designed acoustic pulses. The drone may be localized as long as the pulses are correctly detected. Doing so is challenging: i) because of limited transmission power, propagation attenuation, background noise, and propeller interference, the Signal-to-Noise Ratio (SNR) of received pulses is intrinsically low; ii) the pulses experience non-linear Doppler distortion due to the physical drone dynamics while airborne; iii) as location information is to be used during landing, the processing latency must be reduced to effectively feed the flight control loop. To tackle these issues, we design a novel pulse detector, Matched Filter Tree (MFT), whose idea is to convert pulse detection to a tree search problem. We further present three practical methods to accelerate tree search jointly. Our real-world experiments show that MicNest is able to localize a drone 120 m away with 0.53% relative localization error at 20 Hz location update frequency."
-    }    
-
+        "figure":"./files/Fig/CLQI_TOSN.png",
+        "abstract": "Research on cross-technology communication (CTC) has made rapid progress in recent years. While the CTC links are complex and dynamic, how to estimate the quality of a CTC link remains an open and challenging problem. Through our observation and study, we find that none of the existing approaches can be applied to estimate the link quality of CTC. Built upon the physical-level emulation, transmission over a CTC link is jointly affected by two factors: the emulation error and the channel distortion. Furthermore, the channel distortion can be modeled and observed through the signal strength and the noise strength. We, in this article, propose a new link metric called C-LQI and a joint link model that simultaneously takes into account the emulation error and the channel distortion in the In-phase and Quadrature (IQ) domain. We accurately describe the superimposed impact on the received signal. We further design a lightweight link estimation approach including two different methods to estimate C-LQI and in turn the packet reception rate (PRR) over the CTC link. We implement C-LQI and compare it with two representative link estimation approaches. The results demonstrate that C-LQI reduces the relative estimation error by 49.8% and 51.5% compared with s-PRR and EWMA, respectively."
+    },
+    {
+        "bibtex": "@INPROCEEDINGS{9155437,\n  author={Zhang, Jia and Guo, Xiuzhen and Jiang, Haotian and Zheng, Xiaolong and He, Yuan},\n  booktitle={IEEE INFOCOM 2020 - IEEE Conference on Computer Communications}, \n  title={Link Quality Estimation of Cross-Technology Communication}, \n  year={2020},\n  volume={},\n  number={},\n  pages={496-505},\n  doi={10.1109/INFOCOM41043.2020.9155437}}",
+        "authors": {
+            "boldAuthors": ["Jia Zhang"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/CLQI.pdf",
+            "slides": "./files/Slides/CLQI.pdf",
+            "code": null,
+            "demo": null
+        },
+        "figure":"./files/Fig/CLQI.png",
+        "abstract": "Research on Cross-technology communication (CTC) has made rapid progress in recent years, but how to estimate the quality of a CTC link remains an open and challenging problem. Through our observation and study, we find that none of the existing approaches can be applied to estimate the link quality of CTC. Built upon the physical-level emulation, transmission over a CTC link is jointly affected by two factors: the emulation error and the channel distortion. We in this paper propose a new link metric called C-LQI and a joint link model that simultaneously takes into account the emulation error and the channel distortion in the process of CTC. We further design a light-weight link estimation approach to estimate C-LQI and in turn the PRR over the CTC link. We implement C-LQI and compare it with two representative link estimation approaches. The results demonstrate that C-LQI reduces the relative error of link estimation respectively by 46% and 53% and saves the communication cost by 90%."
+    },
+    {
+        "bibtex": "@article{10.1145/3530049,\nauthor = {He, Yuan and Guo, Xiuzhen and Zheng, Xiaolong and Yu, Zihao and Zhang, Jia and Jiang, Haotian and Na, Xin and Zhang, Jiacheng},\ntitle = {Cross-Technology Communication for the Internet of Things: A Survey},\nyear = {2022},\nissue_date = {May 2023},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {55},\nnumber = {5},\nissn = {0360-0300},\nurl = {https://doi.org/10.1145/3530049},\ndoi = {10.1145/3530049},\nabstract = {The ever-developing Internet of Things (IoT) brings the prosperity of wireless sensing and control applications. In many scenarios, different wireless technologies coexist in the shared frequency medium as well as the physical space. Such wireless coexistence may lead to serious cross-technology interference (CTI) problems, e.g., channel competition, signal collision, and throughput degradation. Compared with traditional methods like interference avoidance, tolerance, and concurrency mechanism, direct and timely information exchange among heterogeneous devices is therefore a fundamental requirement to ensure the usability, inter-operability, and reliability of the IoT. Under this circumstance, Cross-Technology Communication (CTC) technique thus becomes a hot topic in both academic and industrial fields, which aims at directly exchanging data among heterogeneous devices that follow different standards. This paper comprehensively summarizes the CTC techniques and reveals that the key challenge for CTC lies in the heterogeneity of IoT devices, including the incompatibility of technical standards and the asymmetry of connection capability. Based on the above finding, we present a taxonomy of the existing CTC works (packet-level CTCs and physical-level CTCs) and compare the existing CTC techniques in terms of throughput, reliability, hardware modification, and concurrency.},\njournal = {ACM Comput. Surv.},\nmonth = {dec},\narticleno = {89},\nnumpages = {29},\nkeywords = {research survey, heterogeneous coexistence, Cross-Technology Communication, Wireless communication}\n}",
+        "authors": {
+            "boldAuthors": ["Jia Zhang"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/CTC_survey.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null
+        },
+        "figure": null,
+        "abstract": "The ever-developing Internet of Things (IoT) brings the prosperity of wireless sensing and control applications. In many scenarios, different wireless technologies coexist in the shared frequency medium as well as the physical space. Such wireless coexistence may lead to serious cross-technology interference (CTI) problems, e.g., channel competition, signal collision, and throughput degradation. Compared with traditional methods like interference avoidance, tolerance, and concurrency mechanism, direct and timely information exchange among heterogeneous devices is therefore a fundamental requirement to ensure the usability, inter-operability, and reliability of the IoT. Under this circumstance, Cross-Technology Communication (CTC) technique thus becomes a hot topic in both academic and industrial fields, which aims at directly exchanging data among heterogeneous devices that follow different standards. This paper comprehensively summarizes the CTC techniques and reveals that the key challenge for CTC lies in the heterogeneity of IoT devices, including the incompatibility of technical standards and the asymmetry of connection capability. Based on the above finding, we present a taxonomy of the existing CTC works (packet-level CTCs and physical-level CTCs) and compare the existing CTC techniques in terms of throughput, reliability, hardware modification, and concurrency."
+    },
+    {
+        "bibtex": "@ARTICLE{9596585,\n  author={Guo, Xiuzhen and Shangguan, Longfei and He, Yuan and Zhang, Jia and Jiang, Haotian and Siddiqi, Awais Ahmad and Liu, Yunhao},\n  journal={IEEE/ACM Transactions on Networking}, \n  title={Efficient Ambient LoRa Backscatter With On-Off Keying Modulation}, \n  year={2022},\n  volume={30},\n  number={2},\n  pages={641-654},\n  doi={10.1109/TNET.2021.3121787}}",
+        "authors": {
+            "boldAuthors": ["Jia Zhang"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/Aloba_TON.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null
+        },
+        "figure": "./files/Fig/Aloba.jpg",
+        "abstract": "Backscatter communication holds potential for ubiquitous and low-cost connectivity among low-power IoT devices. To avoid interference between the carrier signal and the backscatter signal, recent works propose a frequency-shifting technique to separate these two signals in the frequency domain. Such proposals, however, have to occupy the precious wireless spectrum that is already overcrowded, and increase the power, cost, and complexity of the backscatter tag. In this paper, we revisit the classic ON-OFF Keying (OOK) modulation and propose Aloba, a backscatter system that takes the ambient LoRa transmissions as the excitation and piggybacks the in-band OOK modulated signals over the LoRa transmissions. Our design enables the backscatter signal to work in the same frequency band of the carrier signal, meanwhile achieving flexible data rate at different transmission range. The key contributions of Aloba include: i) the design of a low-power backscatter tag that can pick up the ambient LoRa signals from other signals; ii) a novel decoding algorithm to demodulate both the carrier signal and the backscatter signal from their superposition. We further adopt link coding mechanism and interleave operation to enhance the reliability of backscatter signal decoding. We implement Aloba and conduct head-to-head comparison with the state-of-the-art LoRa backscatter system PLoRa in various settings. The experiment results show Aloba can achieve 39.5–199.4 Kbps data rate at various distances, 10.4–52.4× higher than PLoRa."
+    },
+    {
+        "bibtex": "@article{10.1145/3469031,\nauthor = {Guo, Xiuzhen and He, Yuan and Zhang, Jia and Jiang, Haotian and Yu, Zihao and Na, Xin},\ntitle = {Taming the Errors in Cross-Technology Communication: A Probabilistic Approach},\nyear = {2021},\nissue_date = {February 2022},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {18},\nnumber = {1},\nissn = {1550-4859},\nurl = {https://doi.org/10.1145/3469031},\ndoi = {10.1145/3469031},\nabstract = {Cross-Technology Communication (CTC) emerges as a technology to enable direct communication across different wireless technologies. The state of the art on CTC employs physical-level emulation. Due to the protocol incompatibility and the hardware restriction, there are intrinsic emulation errors between the emulated signals and the legitimate signals. Unresolved emulation errors hurt the reliability of CTC and the achievable throughput, but how to improve the reliability of CTC remains a challenging problem. Taking the CTC from WiFi to BLE as an example, this work first presents a comprehensive understanding of the emulation errors. We then propose WEB, a practical CTC approach that can be implemented with commercial devices. The core design of WEB is split encoding: based on the probabilistic distribution of emulation errors, the WiFi sender manipulates its payload to maximize the successful decoding rate at the BLE receiver. We implement WEB and evaluate its performance with extensive experiments. Compared to two existing approaches, WEBee and WIDE, WEB reduces the SER (Symbol Error Rate) by 54.6% and 42.2%, respectively. For the first time in the community, WEB achieves practically effective CTC from WiFi to BLE, with an average throughput of 522.2 Kbps.},\njournal = {ACM Trans. Sen. Netw.},\nmonth = {oct},\narticleno = {3},\nnumpages = {20},\nkeywords = {split encoding, WiFi to BLE, Cross-technology}\n}\n\n",
+        "authors": {
+            "boldAuthors": ["Jia Zhang"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/WEB.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null
+        },
+        "figure": "./files/Fig/WEB.png",
+        "abstract": "Cross-Technology Communication (CTC) emerges as a technology to enable direct communication across different wireless technologies. The state of the art on CTC employs physical-level emulation. Due to the protocol incompatibility and the hardware restriction, there are intrinsic emulation errors between the emulated signals and the legitimate signals. Unresolved emulation errors hurt the reliability of CTC and the achievable throughput, but how to improve the reliability of CTC remains a challenging problem. Taking the CTC from WiFi to BLE as an example, this work first presents a comprehensive understanding of the emulation errors. We then propose WEB, a practical CTC approach that can be implemented with commercial devices. The core design of WEB is split encoding: based on the probabilistic distribution of emulation errors, the WiFi sender manipulates its payload to maximize the successful decoding rate at the BLE receiver. We implement WEB and evaluate its performance with extensive experiments. Compared to two existing approaches, WEBee and WIDE, WEB reduces the SER (Symbol Error Rate) by 54.6% and 42.2%, respectively. For the first time in the community, WEB achieves practically effective CTC from WiFi to BLE, with an average throughput of 522.2 Kbps."
+    },
+       {
+        "bibtex": "@ARTICLE{9563210,\n  author={Guo, Junchen and He, Yuan and Jiang, Chengkun and Jin, Meng and Li, Shuai and Zhang, Jia and Xi, Rui and Liu, Yunhao},\n  journal={IEEE Transactions on Mobile Computing}, \n  title={Measuring Micrometer-Level Vibrations with mmWave Radar}, \n  year={2021},\n  volume={},\n  number={},\n  pages={1-1},\n  doi={10.1109/TMC.2021.3118349}}",
+        "authors": {
+            "boldAuthors": ["Jia Zhang"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/mmVib_TON.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null
+        },
+        "figure": "./files/Fig/mmVib.png",
+        "abstract": "Vibration measurement is a crucial task in industrial systems, where vibration characteristics reflect health conditions and indicate anomalies of the devices. Previous approaches either work in an intrusive manner or fail to capture the micrometer-level vibrations. In this work, we propose mmVib, a practical approach to measure micrometer-level vibrations with mmWave radar. First, we derive a metric called Vibration Signal-to-Noise Ratio (VSNR) that highlights the directions of reducing measurement errors of tiny vibrations. Then, we introduce the design of mmVib based on the concept of Multi-Signal Consolidation (MSC) for the error reduction and multi-object measurement. We implement a prototype of mmVib, and the experiments show that it achieves 3.946% relative amplitude error and 0.02487% relative frequency error in median. Typically, the average amplitude error is only 3.174um when measuring the 100um-amplitude vibration at around 5 meters. Compared to two existing mmWave-based approaches, mmVib reduces the 80th-percentile amplitude error by 69.21% and 97.99% respectively."
+    },
+    {
+        "bibtex": "@ARTICLE{9416311,\n  author={He, Yuan and Guo, Xiuzhen and Zhang, Jia and Jiang, Haotian},\n  journal={IEEE/ACM Transactions on Networking}, \n  title={WIDE: Physical-Level CTC via Digital Emulation}, \n  year={2021},\n  volume={29},\n  number={4},\n  pages={1567-1579},\n  doi={10.1109/TNET.2021.3071782}}",
+        "authors": {
+            "boldAuthors": ["Jia Zhang"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/WIDE_TON.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null
+        },
+        "figure": "./files/Fig/WIDE.png",
+        "abstract": "Cross-Technology Communication (CTC) is an emerging technique that enables direct communication across different wireless technologies. Recent works achieve physical-level CTC by emulating the standard time-domain waveform of the receiver. This method faces the challenges of inherent unreliability due to the imperfect emulation. Different from analog emulation, we propose a novel concept named digital emulation, which stems from the following insight: The receiver relies on phase shift rather than the phase itself to decode signals. Instead of emulating the original time-domain waveform, the sender emulates the phase shift associated with the desired signals. Clearly there are multiple different phase sequences that correspond to the same signs of phase shifts. Digital emulation has flexibility in setting the phase values in the emulated signals, which is effective in reducing emulation errors and enhancing the reliability of CTC. The key point of digital emulation is generic and applicable to a set of CTCs, where the transmitter has a wider bandwidth for emulation and the receiver decoding is based on the phase shift. In this paper, we implement our proposal as WIDE, a physical-level CTC via digital emulation from WiFi to ZigBee. We conduct extensive experiments to evaluate the performance of WIDE. The results show that WIDE significantly improves the Packet Reception Ratio (PRR) from 41.7% to 86.2%, which is 2× of WEBee's, an existing representative physical-level CTC."
+    },
+    {
+        "bibtex": "@inproceedings{10.1145/3384419.3430719,\nauthor = {Guo, Xiuzhen and Shangguan, Longfei and He, Yuan and Zhang, Jia and Jiang, Haotian and Siddiqi, Awais Ahmad and Liu, Yunhao},\ntitle = {Aloba: Rethinking ON-OFF Keying Modulation for Ambient LoRa Backscatter},\nyear = {2020},\nisbn = {9781450375900},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3384419.3430719},\ndoi = {10.1145/3384419.3430719},\nabstract = {Backscatter communication holds potential for ubiquitous and low-cost connectivity among low-power IoT devices. To avoid interference between the carrier signal and the backscatter signal, recent works propose a frequency-shifting technique to separate these two signals in the frequency domain. Such proposals, however, have to occupy the precious wireless spectrum that is already overcrowded, and increase the power, cost, and complexity of the backscatter tag. In this paper, we revisit the classic ON-OFF Keying (OOK) modulation and propose Aloba, a backscatter system that takes the ambient LoRa transmissions as the excitation and piggybacks the in-band OOK modulated signals over the LoRa transmissions. Our design enables the backsactter signal to work in the same frequency band of the carrier signal, meanwhile achieving good tradeoff between transmission range and link throughput. The key contributions of Aloba include: i) the design of a low-power backscatter tag that can pick up the ambient LoRa signals from other signals; ii) a novel decoding algorithm to demodulate both the carrier signal and the backscatter signal from their superposition. The design of Aloba completely unleashes the backscatter tag's ability in OOK modulation and achieves flexible data rate at different transmission range. We implement Aloba and conduct head-to-head comparison with the state-of-the-art LoRa backscatter system PLoRa in various settings. The experiment results show Aloba can achieve 39.5--199.4 Kbps data rate at various distances, 10.4--52.4X higher than PLoRa.},\nbooktitle = {Proceedings of the 18th Conference on Embedded Networked Sensor Systems},\npages = {192–204},\nnumpages = {13},\nkeywords = {ambient lora backscatter, on-off keying modulation},\nlocation = {Virtual Event, Japan},\nseries = {SenSys '20}\n}\n",
+        "authors": {
+            "boldAuthors": ["Jia Zhang"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/Aloba.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null
+        },
+        "figure": "./files/Fig/Aloba.jpg",
+        "abstract": "Backscatter communication holds potential for ubiquitous and low-cost connectivity among low-power IoT devices. To avoid interference between the carrier signal and the backscatter signal, recent works propose a frequency-shifting technique to separate these two signals in the frequency domain. Such proposals, however, have to occupy the precious wireless spectrum that is already overcrowded, and increase the power, cost, and complexity of the backscatter tag. In this paper, we revisit the classic ON-OFF Keying (OOK) modulation and propose Aloba, a backscatter system that takes the ambient LoRa transmissions as the excitation and piggybacks the in-band OOK modulated signals over the LoRa transmissions. Our design enables the backsactter signal to work in the same frequency band of the carrier signal, meanwhile achieving good tradeoff between transmission range and link throughput. The key contributions of Aloba include: i) the design of a low-power backscatter tag that can pick up the ambient LoRa signals from other signals; ii) a novel decoding algorithm to demodulate both the carrier signal and the backscatter signal from their superposition. The design of Aloba completely unleashes the backscatter tag's ability in OOK modulation and achieves flexible data rate at different transmission range. We implement Aloba and conduct head-to-head comparison with the state-of-the-art LoRa backscatter system PLoRa in various settings. The experiment results show Aloba can achieve 39.5--199.4 Kbps data rate at various distances, 10.4--52.4X higher than PLoRa."
+    },
+    {
+        "bibtex": "@inproceedings{10.1145/3302506.3310388,\nauthor = {Guo, Xiuzhen and He, Yuan and Zhang, Jia and Jiang, Haotian},\ntitle = {WIDE: Physical-Level CTC via Digital Emulation},\nyear = {2019},\nisbn = {9781450362849},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3302506.3310388},\ndoi = {10.1145/3302506.3310388},\nabstract = {Cross-Technology Communication (CTC) is an emerging technique that enables direct communication across different wireless technologies. Recent works achieve physical-level CTC by emulating the standard time-domain waveform of the receiver. This method faces the challenges of inherent unreliability due to the imperfect emulation. Different from analog emulation, we propose a novel concept named digital emulation, which stems from the following insight: The receiver relies on the phase shift to decode symbols rather than the shape of analog time-domain waveform. There are lots of phase sequences which satisfy the requirement of phase shift. The distortions of these phase sequences after WiFi emulation are different. We have the opportunity to select an appropriate phase sequence with the relatively small emulation errors to achieve a reliable CTC. The key point of digital emulation is generic and applicable to a set of CTCs, where the transmitter has a wider bandwidth for emulation and the receiver decoding is based on the phase shift. In this paper, we implement our proposal as WIDE, a physical-level CTC via digital emulation from WiFi to ZigBee. We conduct extensive experiments to evaluate the performance of WIDE. The results show that WIDE significantly improves the Packet Reception Ratio (PRR) from 41.7% to 86.2%, which is 2X of WEBee's, an existing representative physical-level CTC.},\nbooktitle = {Proceedings of the 18th International Conference on Information Processing in Sensor Networks},\npages = {49–60},\nnumpages = {12},\nkeywords = {digital emulation, cross-technology communication},\nlocation = {Montreal, Quebec, Canada},\nseries = {IPSN '19}\n}\n\n",
+        "authors": {
+            "boldAuthors": ["Jia Zhang"],
+            "correspondingAuthors": ["Yuan He"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/WIDE.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null
+        },
+        "figure": "./files/Fig/WIDE.png",
+        "abstract": "Cross-Technology Communication (CTC) is an emerging technique that enables direct communication across different wireless technologies. Recent works achieve physical-level CTC by emulating the standard time-domain waveform of the receiver. This method faces the challenges of inherent unreliability due to the imperfect emulation. Different from analog emulation, we propose a novel concept named digital emulation, which stems from the following insight: The receiver relies on the phase shift to decode symbols rather than the shape of analog time-domain waveform. There are lots of phase sequences which satisfy the requirement of phase shift. The distortions of these phase sequences after WiFi emulation are different. We have the opportunity to select an appropriate phase sequence with the relatively small emulation errors to achieve a reliable CTC. The key point of digital emulation is generic and applicable to a set of CTCs, where the transmitter has a wider bandwidth for emulation and the receiver decoding is based on the phase shift. In this paper, we implement our proposal as WIDE, a physical-level CTC via digital emulation from WiFi to ZigBee. We conduct extensive experiments to evaluate the performance of WIDE. The results show that WIDE significantly improves the Packet Reception Ratio (PRR) from 41.7% to 86.2%, which is 2X of WEBee's, an existing representative physical-level CTC."
+    }
 ]

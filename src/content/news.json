@@ -1,5 +1,10 @@
 [
-    {"date": "[2022.10]", "content": "Our work <i>MicNest</i> won the <b>Best Paper Runner-Up Award</b> from <b>ACM SenSys 2022</b> (Top 2 out of all 209 submissions)!"},
+    {"date": "[2023.02]", "content": "Our work <b>Leggiero</b> on WiFi backscatter was conditionally accepted by <b>ACM MobiSys 2023</b>!"},
 
-    {"date": "[2022.10]", "content": "Our two works <i>MicNest</i> and <i>AIM</i> are accepted by <b>ACM SenSys 2022</b>!"}
+    {"date": "[2022.08]", "content": "Our work <b>AmbiEar</b> on mmWave sensing was accepted by <b>ACM UbiComp 2022</b>!"},
+
+    {"date": "[2022.03]", "content": "Our survey paper on Cross-technology Communication was accepted by <b>ACM Computing Surveys</b>!"},
+
+    {"date": "[2021.08]", "content": "Our work <b>C-LQI</b> on Cross-technology Communication was accepted by <b>ACM TOSN</b>!"}
+
 ]
